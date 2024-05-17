@@ -180,5 +180,6 @@ class Inflectible
         yield new Substitution(new Word('oasis'), new Word('oases'));
         yield new Substitution(new Word('valve'), new Word('valves'));
         yield new Substitution(new Word('zombie'), new Word('zombies'));
+        yield new Substitution(new Word('stadium'), new Word('stadiums'));
     }
 }
