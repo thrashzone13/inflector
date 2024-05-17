@@ -173,7 +173,6 @@ class Inflectible
         yield new Substitution(new Word('foe'), new Word('foes'));
         yield new Substitution(new Word('grave'), new Word('graves'));
         yield new Substitution(new Word('hoax'), new Word('hoaxes'));
-        yield new Substitution(new Word('medium'), new Word('media'));
         yield new Substitution(new Word('neurosis'), new Word('neuroses'));
         yield new Substitution(new Word('save'), new Word('saves'));
         yield new Substitution(new Word('wave'), new Word('waves'));
