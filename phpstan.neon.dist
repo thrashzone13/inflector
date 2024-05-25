@@ -6,5 +6,5 @@ includes:
 parameters:
     level: 7
     paths:
-      - lib
+      - src
       - tests
