@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+            "Doctrine\\Inflector\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Doctrine\\Tests\\Inflector\\": "tests/Doctrine/Tests/Inflector"
+            "Doctrine\\Tests\\Inflector\\": "tests"
         }
     },
     "config": {
