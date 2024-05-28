@@ -1,17 +1,43 @@
 {
     "name": "doctrine/inflector",
-    "type": "library",
     "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
-    "keywords": ["php", "strings", "words", "manipulation", "inflector", "inflection", "uppercase", "lowercase", "singular", "plural"],
-    "homepage": "https://www.doctrine-project.org/projects/inflector.html",
     "license": "MIT",
-    "authors": [
-        {"name": "Guilherme Blanco", "email": "guilhermeblanco@gmail.com"},
-        {"name": "Roman Borschel", "email": "roman@code-factory.org"},
-        {"name": "Benjamin Eberlei", "email": "kontakt@beberlei.de"},
-        {"name": "Jonathan Wage", "email": "jonwage@gmail.com"},
-        {"name": "Johannes Schmitt", "email": "schmittjoh@gmail.com"}
+    "type": "library",
+    "keywords": [
+        "php",
+        "strings",
+        "words",
+        "manipulation",
+        "inflector",
+        "inflection",
+        "uppercase",
+        "lowercase",
+        "singular",
+        "plural"
     ],
+    "authors": [
+        {
+            "name": "Guilherme Blanco",
+            "email": "guilhermeblanco@gmail.com"
+        },
+        {
+            "name": "Roman Borschel",
+            "email": "roman@code-factory.org"
+        },
+        {
+            "name": "Benjamin Eberlei",
+            "email": "kontakt@beberlei.de"
+        },
+        {
+            "name": "Jonathan Wage",
+            "email": "jonwage@gmail.com"
+        },
+        {
+            "name": "Johannes Schmitt",
+            "email": "schmittjoh@gmail.com"
+        }
+    ],
+    "homepage": "https://www.doctrine-project.org/projects/inflector.html",
     "require": {
         "php": "^7.2 || ^8.0"
     },
@@ -36,6 +62,7 @@
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
-        }
+        },
+        "sort-packages": true
     }
 }
